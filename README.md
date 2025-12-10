@@ -264,10 +264,6 @@ touch ~/ROS2/ros2_drone/src/drone_controller/drone_controller/offboard_control.p
 chmod +x ~/ROS2/ros2_drone/src/drone_controller/drone_controller/offboard_control.py
 ```
 
-*[Add your Python code here]*
-
----
-
 ## Building the Workspace
 
 ### 1. Install Dependencies
@@ -312,7 +308,6 @@ ros2 pkg list | grep drone_controller
 ros2 run drone_controller offboard_control --help
 ```
 
----
 
 ## Running the Simulation
 
