@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/drone_controller/drone_controller.egg-info/PKG-INFO
+../../build/drone_controller/drone_controller.egg-info/SOURCES.txt
+../../build/drone_controller/drone_controller.egg-info/dependency_links.txt
+../../build/drone_controller/drone_controller.egg-info/requires.txt
+../../build/drone_controller/drone_controller.egg-info/top_level.txt
+../../build/drone_controller/drone_controller.egg-info/zip-safe
+drone_controller/__init__.py
+drone_controller/offboard_control.py
+resource/drone_controller
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

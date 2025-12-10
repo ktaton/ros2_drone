@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.003896] (drone_controller) JobQueued: {'identifier': 'drone_controller', 'dependencies': OrderedDict()}
+[0.005055] (drone_controller) JobStarted: {'identifier': 'drone_controller'}
+[0.099384] (-) TimerEvent: {}
+[0.199883] (-) TimerEvent: {}
+[0.300843] (-) TimerEvent: {}
+[0.404114] (-) TimerEvent: {}
+[0.505006] (-) TimerEvent: {}
+[0.605730] (-) TimerEvent: {}
+[0.706452] (-) TimerEvent: {}
+[0.808310] (-) TimerEvent: {}
+[0.909065] (-) TimerEvent: {}
+[1.010131] (-) TimerEvent: {}
+[1.110999] (-) TimerEvent: {}
+[1.211697] (-) TimerEvent: {}
+[1.312676] (-) TimerEvent: {}
+[1.413138] (-) TimerEvent: {}
+[1.513912] (-) TimerEvent: {}
+[1.614945] (-) TimerEvent: {}
+[1.716051] (-) TimerEvent: {}
+[1.818305] (-) TimerEvent: {}
+[1.920284] (-) TimerEvent: {}
+[2.022630] (-) TimerEvent: {}
+[2.123121] (-) TimerEvent: {}
+[2.224930] (-) TimerEvent: {}
+[2.325991] (-) TimerEvent: {}
+[2.426671] (-) TimerEvent: {}
+[2.527228] (-) TimerEvent: {}
+[2.627651] (-) TimerEvent: {}
+[2.728581] (-) TimerEvent: {}
+[2.829585] (-) TimerEvent: {}
+[2.930300] (-) TimerEvent: {}
+[3.031024] (-) TimerEvent: {}
+[3.131569] (-) TimerEvent: {}
+[3.232583] (-) TimerEvent: {}
+[3.333139] (-) TimerEvent: {}
+[3.434844] (-) TimerEvent: {}
+[3.535473] (-) TimerEvent: {}
+[3.636833] (-) TimerEvent: {}
+[3.739077] (-) TimerEvent: {}
+[3.841352] (-) TimerEvent: {}
+[3.941975] (-) TimerEvent: {}
+[4.043184] (-) TimerEvent: {}
+[4.143913] (-) TimerEvent: {}
+[4.244549] (-) TimerEvent: {}
+[4.345347] (-) TimerEvent: {}
+[4.446108] (-) TimerEvent: {}
+[4.546691] (-) TimerEvent: {}
+[4.647464] (-) TimerEvent: {}
+[4.748194] (-) TimerEvent: {}
+[4.848716] (-) TimerEvent: {}
+[4.949738] (-) TimerEvent: {}
+[5.053349] (-) TimerEvent: {}
+[5.154561] (-) TimerEvent: {}
+[5.255825] (-) TimerEvent: {}
+[5.356679] (-) TimerEvent: {}
+[5.457220] (-) TimerEvent: {}
+[5.557861] (-) TimerEvent: {}
+[5.658812] (-) TimerEvent: {}
+[5.760109] (-) TimerEvent: {}
+[5.864939] (-) TimerEvent: {}
+[5.966392] (-) TimerEvent: {}
+[6.067197] (-) TimerEvent: {}
+[6.148418] (drone_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_controller', 'build', '--build-base', '/home/taton/ROS2/ros2_drone/build/drone_controller/build', 'install', '--record', '/home/taton/ROS2/ros2_drone/build/drone_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/taton/ROS2/ros2_drone/src/drone_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share:/home/taton/gazebo_models', 'USER': 'taton', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/taton', 'OLDPWD': '/home/taton/PX4-Autopilot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2109', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'taton', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'taton', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/taton/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/', 'SESSION_MANAGER': 'local/taton-X542UN:@/tmp/.ICE-unix/2053,unix/taton-X542UN:/tmp/.ICE-unix/2053', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a223d262_0bef_4079_a39b_9e3c805a8eb6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.113', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/taton/ROS2/ros2_drone/build/drone_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/taton/ROS2/ros2_drone/build/drone_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.167417] (-) TimerEvent: {}
+[6.268288] (-) TimerEvent: {}
+[6.369457] (-) TimerEvent: {}
+[6.470606] (-) TimerEvent: {}
+[6.571484] (-) TimerEvent: {}
+[6.672035] (-) TimerEvent: {}
+[6.772960] (-) TimerEvent: {}
+[6.874023] (-) TimerEvent: {}
+[6.974653] (-) TimerEvent: {}
+[7.075201] (-) TimerEvent: {}
+[7.176247] (-) TimerEvent: {}
+[7.279511] (-) TimerEvent: {}
+[7.380784] (-) TimerEvent: {}
+[7.481718] (-) TimerEvent: {}
+[7.582718] (-) TimerEvent: {}
+[7.683628] (-) TimerEvent: {}
+[7.784453] (-) TimerEvent: {}
+[7.885605] (-) TimerEvent: {}
+[7.986658] (-) TimerEvent: {}
+[8.087312] (-) TimerEvent: {}
+[8.188670] (-) TimerEvent: {}
+[8.217583] (drone_controller) StdoutLine: {'line': b'running egg_info\n'}
+[8.224579] (drone_controller) StdoutLine: {'line': b'creating ../../build/drone_controller/drone_controller.egg-info\n'}
+[8.288842] (-) TimerEvent: {}
+[8.372832] (drone_controller) StdoutLine: {'line': b'writing ../../build/drone_controller/drone_controller.egg-info/PKG-INFO\n'}
+[8.375001] (drone_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_controller/drone_controller.egg-info/dependency_links.txt\n'}
+[8.376705] (drone_controller) StdoutLine: {'line': b'writing requirements to ../../build/drone_controller/drone_controller.egg-info/requires.txt\n'}
+[8.377935] (drone_controller) StdoutLine: {'line': b'writing top-level names to ../../build/drone_controller/drone_controller.egg-info/top_level.txt\n'}
+[8.379552] (drone_controller) StdoutLine: {'line': b"writing manifest file '../../build/drone_controller/drone_controller.egg-info/SOURCES.txt'\n"}
+[8.388986] (-) TimerEvent: {}
+[8.489480] (-) TimerEvent: {}
+[8.590729] (-) TimerEvent: {}
+[8.691775] (-) TimerEvent: {}
+[8.742125] (drone_controller) StdoutLine: {'line': b"reading manifest file '../../build/drone_controller/drone_controller.egg-info/SOURCES.txt'\n"}
+[8.746926] (drone_controller) StdoutLine: {'line': b"writing manifest file '../../build/drone_controller/drone_controller.egg-info/SOURCES.txt'\n"}
+[8.748960] (drone_controller) StdoutLine: {'line': b'running build\n'}
+[8.749703] (drone_controller) StdoutLine: {'line': b'running build_py\n'}
+[8.750978] (drone_controller) StdoutLine: {'line': b'creating /home/taton/ROS2/ros2_drone/build/drone_controller/build\n'}
+[8.753900] (drone_controller) StdoutLine: {'line': b'creating /home/taton/ROS2/ros2_drone/build/drone_controller/build/lib\n'}
+[8.754845] (drone_controller) StdoutLine: {'line': b'creating /home/taton/ROS2/ros2_drone/build/drone_controller/build/lib/drone_controller\n'}
+[8.755260] (drone_controller) StdoutLine: {'line': b'copying drone_controller/__init__.py -> /home/taton/ROS2/ros2_drone/build/drone_controller/build/lib/drone_controller\n'}
+[8.755531] (drone_controller) StdoutLine: {'line': b'copying drone_controller/offboard_control.py -> /home/taton/ROS2/ros2_drone/build/drone_controller/build/lib/drone_controller\n'}
+[8.757003] (drone_controller) StdoutLine: {'line': b'running install\n'}
+[8.791858] (-) TimerEvent: {}
+[8.802656] (drone_controller) StdoutLine: {'line': b'running install_lib\n'}
+[8.892086] (-) TimerEvent: {}
+[8.982459] (drone_controller) StdoutLine: {'line': b'creating /home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages/drone_controller\n'}
+[8.983784] (drone_controller) StdoutLine: {'line': b'copying /home/taton/ROS2/ros2_drone/build/drone_controller/build/lib/drone_controller/__init__.py -> /home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages/drone_controller\n'}
+[8.985111] (drone_controller) StdoutLine: {'line': b'copying /home/taton/ROS2/ros2_drone/build/drone_controller/build/lib/drone_controller/offboard_control.py -> /home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages/drone_controller\n'}
+[8.989863] (drone_controller) StdoutLine: {'line': b'byte-compiling /home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages/drone_controller/__init__.py to __init__.cpython-312.pyc\n'}
+[8.990458] (drone_controller) StdoutLine: {'line': b'byte-compiling /home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages/drone_controller/offboard_control.py to offboard_control.cpython-312.pyc\n'}
+[8.992292] (-) TimerEvent: {}
+[8.994700] (drone_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.995382] (drone_controller) StdoutLine: {'line': b'creating /home/taton/ROS2/ros2_drone/install/drone_controller/share/ament_index\n'}
+[8.997083] (drone_controller) StdoutLine: {'line': b'creating /home/taton/ROS2/ros2_drone/install/drone_controller/share/ament_index/resource_index\n'}
+[8.997440] (drone_controller) StdoutLine: {'line': b'creating /home/taton/ROS2/ros2_drone/install/drone_controller/share/ament_index/resource_index/packages\n'}
+[8.997717] (drone_controller) StdoutLine: {'line': b'copying resource/drone_controller -> /home/taton/ROS2/ros2_drone/install/drone_controller/share/ament_index/resource_index/packages\n'}
+[8.997951] (drone_controller) StdoutLine: {'line': b'copying package.xml -> /home/taton/ROS2/ros2_drone/install/drone_controller/share/drone_controller\n'}
+[8.998306] (drone_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.092583] (-) TimerEvent: {}
+[9.188787] (drone_controller) StdoutLine: {'line': b'Copying ../../build/drone_controller/drone_controller.egg-info to /home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages/drone_controller-0.0.0-py3.12.egg-info\n'}
+[9.192728] (-) TimerEvent: {}
+[9.194749] (drone_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[9.293018] (-) TimerEvent: {}
+[9.394830] (-) TimerEvent: {}
+[9.495872] (-) TimerEvent: {}
+[9.596858] (-) TimerEvent: {}
+[9.698239] (-) TimerEvent: {}
+[9.799225] (-) TimerEvent: {}
+[9.900817] (-) TimerEvent: {}
+[10.001462] (-) TimerEvent: {}
+[10.102109] (-) TimerEvent: {}
+[10.203479] (-) TimerEvent: {}
+[10.243907] (drone_controller) StdoutLine: {'line': b"writing list of installed files to '/home/taton/ROS2/ros2_drone/build/drone_controller/install.log'\n"}
+[10.303986] (-) TimerEvent: {}
+[10.405110] (-) TimerEvent: {}
+[10.434806] (drone_controller) CommandEnded: {'returncode': 0}
+[10.492893] (drone_controller) JobEnded: {'identifier': 'drone_controller', 'rc': 0}
+[10.499034] (-) EventReactorShutdown: {}

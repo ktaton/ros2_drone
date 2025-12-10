@@ -1,0 +1,21 @@
+[1.267s] Invoking command in '/home/taton/ROS2/ros2_drone/src/drone_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/taton/ROS2/ros2_drone/src/build/drone_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taton/ROS2/ros2_drone/src/install/drone_controller/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/src/install/px4_msgs/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/src/install/drone_controller/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/install/px4_msgs/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drone_controller build --build-base /home/taton/ROS2/ros2_drone/src/build/drone_controller/build install --record /home/taton/ROS2/ros2_drone/src/build/drone_controller/install.log --single-version-externally-managed install_data
+[1.670s] running egg_info
+[1.701s] writing ../build/drone_controller/drone_controller.egg-info/PKG-INFO
+[1.701s] writing dependency_links to ../build/drone_controller/drone_controller.egg-info/dependency_links.txt
+[1.702s] writing entry points to ../build/drone_controller/drone_controller.egg-info/entry_points.txt
+[1.702s] writing requirements to ../build/drone_controller/drone_controller.egg-info/requires.txt
+[1.702s] writing top-level names to ../build/drone_controller/drone_controller.egg-info/top_level.txt
+[1.766s] reading manifest file '../build/drone_controller/drone_controller.egg-info/SOURCES.txt'
+[1.767s] writing manifest file '../build/drone_controller/drone_controller.egg-info/SOURCES.txt'
+[1.767s] running build
+[1.767s] running build_py
+[1.768s] running install
+[1.775s] running install_lib
+[1.803s] running install_data
+[1.803s] running install_egg_info
+[1.834s] removing '/home/taton/ROS2/ros2_drone/src/install/drone_controller/lib/python3.12/site-packages/drone_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[1.834s] Copying ../build/drone_controller/drone_controller.egg-info to /home/taton/ROS2/ros2_drone/src/install/drone_controller/lib/python3.12/site-packages/drone_controller-0.0.0-py3.12.egg-info
+[1.835s] running install_scripts
+[2.040s] Installing offboard_control script to /home/taton/ROS2/ros2_drone/src/install/drone_controller/lib/drone_controller
+[2.040s] writing list of installed files to '/home/taton/ROS2/ros2_drone/src/build/drone_controller/install.log'
+[2.084s] Invoked command in '/home/taton/ROS2/ros2_drone/src/drone_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/taton/ROS2/ros2_drone/src/build/drone_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/taton/ROS2/ros2_drone/src/install/drone_controller/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/src/install/px4_msgs/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/src/install/drone_controller/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/install/px4_msgs/lib/python3.12/site-packages:/home/taton/ROS2/ros2_drone/install/drone_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drone_controller build --build-base /home/taton/ROS2/ros2_drone/src/build/drone_controller/build install --record /home/taton/ROS2/ros2_drone/src/build/drone_controller/install.log --single-version-externally-managed install_data

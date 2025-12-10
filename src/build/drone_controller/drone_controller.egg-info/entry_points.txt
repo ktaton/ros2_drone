@@ -1,0 +1,2 @@
+[console_scripts]
+offboard_control = drone_controller.offboard_control:main
