@@ -8,7 +8,6 @@
 3. [Project Structure Setup](#project-structure-setup)
 4. [Building the Workspace](#building-the-workspace)
 5. [Running the Simulation](#running-the-simulation)
-6. [Monitoring and Debugging](#monitoring-and-debugging)
 
 ---
 
@@ -402,51 +401,3 @@ ros2 run drone_controller offboard_control
 7. Descend to 1 meter
 8. Land
 9. Disarm
-
----
-
-## Monitoring and Debugging
-
-### Monitor ROS2 Topics
-
-**List all topics:**
-```bash
-ros2 topic list
-```
-
-**Echo specific topic:**
-```bash
-ros2 topic echo /fmu/out/vehicle_local_position
-ros2 topic echo /fmu/out/vehicle_status
-```
-
-**Check topic frequency:**
-```bash
-ros2 topic hz /fmu/out/vehicle_local_position
-```
-
-**View topic info:**
-```bash
-ros2 topic info /fmu/in/trajectory_setpoint
-```
-
-### Check ROS2 Node Status
-
-```bash
-ros2 node list
-ros2 node info /offboard_control
-```
-
-### View PX4 Status
-
-**In PX4 console (Terminal 1):**
-```bash
-commander status
-listener vehicle_local_position
-listener vehicle_status
-```
-
----
-
-**Last Updated**: December 2024  
-**Tested On**: Ubuntu 24.04, ROS2 Jazzy, PX4 v1.14, Gazebo Harmonic
